@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import Layout from './components/Layout'
 import Dashboard from './pages/Dashboard'
 import ScholarshipList from './pages/ScholarshipList'
+import LiveAIHunter from './components/LiveAIHunter'
 import SearchSessions from './pages/SearchSessions'
 import AIAgents from './pages/AIAgents'
 import Analytics from './pages/Analytics'
@@ -41,8 +42,21 @@ function App() {
                 </motion.div>
               } 
             />
-            <Route 
-              path="/search-sessions" 
+            <Route
+              path="/live-hunter"
+              element={
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -20 }}
+                  transition={{ duration: 0.3 }}
+                >
+                  <LiveAIHunter />
+                </motion.div>
+              }
+            />
+            <Route
+              path="/search-sessions"
               element={
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}

@@ -51,6 +51,7 @@ urlpatterns = [
 
     # API endpoints
     path('', include('apps.scholarships.urls')),
+    path('api/ai-agent/', include('apps.ai_agent.urls')),
 
     # Health and info endpoints
     path('health/', api_health, name='api_health'),

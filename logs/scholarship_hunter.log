@@ -123,3 +123,41 @@ INFO 2025-07-18 06:47:17,563 server 58477 140666602518080 HTTP/2 support not ena
 INFO 2025-07-18 06:47:17,564 server 58477 140666602518080 Configuring endpoint tcp:port=8000:interface=0.0.0.0
 INFO 2025-07-18 06:47:17,564 server 58477 140666602518080 Listening on TCP address 0.0.0.0:8000
 INFO 2025-07-18 06:48:17,722 _client 58500 140597736907200 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-07-18 07:27:44,660 _client 59168 140665895317952 HTTP Request: GET https://www.scholarshipportal.com/scholarships "HTTP/1.1 301 Moved Permanently"
+INFO 2025-07-18 07:27:45,085 _client 59168 140665895317952 HTTP Request: GET https://www.studyportals.com/scholarships "HTTP/1.1 301 Moved Permanently"
+INFO 2025-07-18 07:47:54,211 autoreload 58477 140666692325824 /mnt/persist/workspace/scholarship_hunter/urls.py changed, reloading.
+INFO 2025-07-18 07:47:54,763 autoreload 59499 139791170924992 Watching for file changes with StatReloader
+INFO 2025-07-18 07:51:45,987 autoreload 59583 140449672798656 Watching for file changes with StatReloader
+INFO 2025-07-18 07:51:47,078 server 59583 140449582937664 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2025-07-18 07:51:47,078 server 59583 140449582937664 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+INFO 2025-07-18 07:51:47,079 server 59583 140449582937664 Listening on TCP address 0.0.0.0:8000
+WARNING 2025-07-18 07:54:45,916 log 59583 140449543382592 Forbidden: /api/ai-agent/start-live-hunt/
+WARNING 2025-07-18 07:54:45,917 runserver 59583 140449582937664 HTTP POST /api/ai-agent/start-live-hunt/ 403 [0.01, 127.0.0.1:38152]
+INFO 2025-07-18 07:54:58,984 autoreload 59583 140449672798656 /mnt/persist/workspace/apps/ai_agent/views.py changed, reloading.
+INFO 2025-07-18 07:54:59,630 autoreload 59789 140005680095680 Watching for file changes with StatReloader
+INFO 2025-07-18 07:55:00,336 server 59789 140005590693440 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2025-07-18 07:55:00,336 server 59789 140005590693440 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+INFO 2025-07-18 07:55:00,337 server 59789 140005590693440 Listening on TCP address 0.0.0.0:8000
+INFO 2025-07-18 07:55:32,584 autoreload 59789 140005680095680 /mnt/persist/workspace/apps/ai_agent/views.py changed, reloading.
+INFO 2025-07-18 07:55:33,185 autoreload 59801 140151429734848 Watching for file changes with StatReloader
+INFO 2025-07-18 07:55:33,898 server 59801 140151340660288 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2025-07-18 07:55:33,899 server 59801 140151340660288 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+INFO 2025-07-18 07:55:33,899 server 59801 140151340660288 Listening on TCP address 0.0.0.0:8000
+ERROR 2025-07-18 07:55:49,175 log 59801 140151225316928 Internal Server Error: /api/ai-agent/start-live-hunt/
+ERROR 2025-07-18 07:55:49,176 runserver 59801 140151340660288 HTTP POST /api/ai-agent/start-live-hunt/ 500 [0.01, 127.0.0.1:47972]
+INFO 2025-07-18 07:57:55,755 autoreload 59801 140151429734848 /mnt/persist/workspace/apps/ai_agent/views.py changed, reloading.
+INFO 2025-07-18 07:57:56,297 autoreload 59850 140325129380288 Watching for file changes with StatReloader
+INFO 2025-07-18 07:57:57,050 server 59850 140325039371840 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2025-07-18 07:57:57,050 server 59850 140325039371840 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+INFO 2025-07-18 07:57:57,051 server 59850 140325039371840 Listening on TCP address 0.0.0.0:8000
+INFO 2025-07-18 07:58:18,090 autoreload 59850 140325129380288 /mnt/persist/workspace/apps/ai_agent/views.py changed, reloading.
+INFO 2025-07-18 07:58:18,625 autoreload 59860 139675672146368 Watching for file changes with StatReloader
+INFO 2025-07-18 07:58:19,280 server 59860 139675582854720 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2025-07-18 07:58:19,281 server 59860 139675582854720 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+INFO 2025-07-18 07:58:19,281 server 59860 139675582854720 Listening on TCP address 0.0.0.0:8000
+INFO 2025-07-18 07:58:48,472 autoreload 59860 139675672146368 /mnt/persist/workspace/apps/ai_agent/views.py changed, reloading.
+INFO 2025-07-18 07:58:49,007 autoreload 59873 140281971196352 Watching for file changes with StatReloader
+INFO 2025-07-18 07:58:49,741 server 59873 140281882080832 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2025-07-18 07:58:49,741 server 59873 140281882080832 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+INFO 2025-07-18 07:58:49,742 server 59873 140281882080832 Listening on TCP address 0.0.0.0:8000
+INFO 2025-07-18 07:58:58,856 runserver 59873 140281882080832 HTTP POST /api/ai-agent/start-live-hunt/ 200 [0.29, 127.0.0.1:39816]

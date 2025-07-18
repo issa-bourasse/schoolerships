@@ -51,6 +51,13 @@ const Layout = ({ children }) => {
       badge: stats?.total_scholarships
     },
     {
+      name: 'Live AI Hunter',
+      href: '/live-hunter',
+      icon: Zap,
+      description: 'Watch AI hunt live',
+      highlight: true
+    },
+    {
       name: 'Search Sessions',
       href: '/search-sessions',
       icon: Target,
