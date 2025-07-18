@@ -1,0 +1,125 @@
+INFO 2025-07-18 06:19:30,550 autoreload 1778 140392998793664 Watching for file changes with StatReloader
+INFO 2025-07-18 06:20:05,699 autoreload 1828 140269615292864 Watching for file changes with StatReloader
+INFO 2025-07-18 06:20:06,825 server 1828 140269525661248 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2025-07-18 06:20:06,825 server 1828 140269525661248 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+INFO 2025-07-18 06:20:06,826 server 1828 140269525661248 Listening on TCP address 0.0.0.0:8000
+INFO 2025-07-18 06:20:27,785 runserver 1828 140269525661248 HTTP GET /health/ 200 [0.01, 127.0.0.1:57336]
+INFO 2025-07-18 06:20:34,811 runserver 1828 140269525661248 HTTP GET /api/info/ 200 [0.01, 127.0.0.1:57342]
+INFO 2025-07-18 06:20:44,095 runserver 1828 140269525661248 HTTP GET /api/scholarships/statistics/ 200 [0.65, 127.0.0.1:40720]
+INFO 2025-07-18 06:23:39,291 runserver 1828 140269525661248 HTTP GET /api/scholarships/statistics/ 200 [0.61, 127.0.0.1:45514]
+INFO 2025-07-18 06:23:46,714 runserver 1828 140269525661248 HTTP GET /api/scholarships/?tunisia_eligible=true&limit=5 200 [0.35, 127.0.0.1:39664]
+INFO 2025-07-18 06:32:38,066 runserver 1828 140269525661248 HTTP GET /api/scholarships/?tunisia_eligible=true&page_size=3 200 [0.82, 127.0.0.1:46808]
+INFO 2025-07-18 06:33:32,677 runserver 1828 140269525661248 HTTP GET /api/scholarships/?tunisia_eligible=true&field_of_study__icontains=AI&page_size=2 200 [0.28, 127.0.0.1:49836]
+INFO 2025-07-18 06:33:41,104 runserver 1828 140269525661248 HTTP GET /api/scholarships/?tunisia_eligible=true&ai_relevance_score__gte=0.5&page_size=3 200 [0.37, 127.0.0.1:35518]
+INFO 2025-07-18 06:35:17,190 autoreload 1828 140269615292864 /mnt/persist/workspace/scholarship_hunter/settings.py changed, reloading.
+INFO 2025-07-18 06:35:17,727 autoreload 58057 139863463068096 Watching for file changes with StatReloader
+INFO 2025-07-18 06:35:18,457 server 58057 139863374427712 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2025-07-18 06:35:18,457 server 58057 139863374427712 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+INFO 2025-07-18 06:35:18,458 server 58057 139863374427712 Listening on TCP address 0.0.0.0:8000
+INFO 2025-07-18 06:35:33,095 autoreload 58080 140504128229824 Watching for file changes with StatReloader
+INFO 2025-07-18 06:35:33,738 server 58080 140504037586496 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2025-07-18 06:35:33,739 server 58080 140504037586496 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+INFO 2025-07-18 06:35:33,739 server 58080 140504037586496 Listening on TCP address 0.0.0.0:8000
+INFO 2025-07-18 06:36:29,840 _client 58110 140552578720192 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:36:29,962 _client 58110 140552578720192 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+INFO 2025-07-18 06:37:21,922 _client 58139 139946988917184 HTTP Request: GET https://api.novita.ai/v3/models "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:37:22,186 _client 58139 139946988917184 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:37:22,229 _client 58139 139946988917184 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:37:22,291 _client 58139 139946988917184 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:37:22,334 _client 58139 139946988917184 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:37:22,376 _client 58139 139946988917184 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:37:22,532 _client 58139 139946988917184 HTTP Request: GET https://api.groq.com/openai/v1/models "HTTP/1.1 200 OK"
+INFO 2025-07-18 06:38:38,649 _client 58186 139905789673920 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+INFO 2025-07-18 06:38:38,762 _client 58186 139905789673920 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+INFO 2025-07-18 06:40:44,928 _client 58230 140674362454464 HTTP Request: GET https://api.novita.ai/v3/models "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:40:44,992 _client 58230 140674362454464 HTTP Request: GET https://api.novita.ai/v3/openai/models "HTTP/1.1 200 OK"
+INFO 2025-07-18 06:40:45,257 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:40:45,303 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:40:45,350 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:40:45,396 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:40:45,443 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:40:45,489 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:40:45,534 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:40:45,580 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:40:45,627 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:40:45,673 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:40:45,720 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:40:45,767 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:40:45,813 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:40:45,858 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:40:45,902 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:40:45,950 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:40:45,996 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:40:46,042 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:40:46,089 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:40:46,135 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:40:46,181 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:40:46,228 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:40:46,274 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:40:46,321 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:41:22,312 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-07-18 06:41:22,554 _client 58230 140674362454464 HTTP Request: GET https://api.novita.ai/v3/models "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:41:22,644 _client 58230 140674362454464 HTTP Request: GET https://api.novita.ai/v3/openai/models "HTTP/1.1 200 OK"
+INFO 2025-07-18 06:41:22,958 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:41:23,007 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:41:23,055 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:41:23,102 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:41:23,150 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:41:23,198 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:41:23,247 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:41:23,296 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:41:23,345 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:41:23,393 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:41:23,442 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:41:23,491 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:41:23,539 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:41:23,587 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:41:23,637 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:41:23,686 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:41:23,735 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:41:23,783 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:41:23,833 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:41:23,883 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:41:23,931 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:41:23,980 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:41:24,027 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:41:24,077 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 404 Not Found"
+INFO 2025-07-18 06:42:15,009 _client 58230 140674362454464 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
+INFO 2025-07-18 06:43:27,569 autoreload 58080 140504128229824 /mnt/persist/workspace/apps/ai_agent/services.py changed, reloading.
+INFO 2025-07-18 06:43:28,175 autoreload 58380 140506626159040 Watching for file changes with StatReloader
+INFO 2025-07-18 06:43:28,885 server 58380 140506537391680 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2025-07-18 06:43:28,885 server 58380 140506537391680 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+INFO 2025-07-18 06:43:28,886 server 58380 140506537391680 Listening on TCP address 0.0.0.0:8000
+INFO 2025-07-18 06:43:54,044 autoreload 58380 140506626159040 /mnt/persist/workspace/scholarship_hunter/settings.py changed, reloading.
+INFO 2025-07-18 06:43:54,760 autoreload 58391 140631904068032 Watching for file changes with StatReloader
+INFO 2025-07-18 06:43:55,479 server 58391 140631814960704 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2025-07-18 06:43:55,479 server 58391 140631814960704 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+INFO 2025-07-18 06:43:55,480 server 58391 140631814960704 Listening on TCP address 0.0.0.0:8000
+INFO 2025-07-18 06:44:31,818 autoreload 58391 140631904068032 /mnt/persist/workspace/apps/ai_agent/services.py changed, reloading.
+INFO 2025-07-18 06:44:32,432 autoreload 58408 139647707320768 Watching for file changes with StatReloader
+INFO 2025-07-18 06:44:33,126 server 58408 139647617332800 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2025-07-18 06:44:33,126 server 58408 139647617332800 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+INFO 2025-07-18 06:44:33,127 server 58408 139647617332800 Listening on TCP address 0.0.0.0:8000
+INFO 2025-07-18 06:45:06,413 autoreload 58408 139647707320768 /mnt/persist/workspace/apps/ai_agent/services.py changed, reloading.
+INFO 2025-07-18 06:45:07,023 autoreload 58420 139735468696000 Watching for file changes with StatReloader
+INFO 2025-07-18 06:45:07,735 server 58420 139735378949696 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2025-07-18 06:45:07,736 server 58420 139735378949696 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+INFO 2025-07-18 06:45:07,736 server 58420 139735378949696 Listening on TCP address 0.0.0.0:8000
+ERROR 2025-07-18 06:46:44,455 services 58449 139907603689920 Error initializing agent: __aenter__
+ERROR 2025-07-18 06:46:44,504 services 58449 139907603689920 Error initializing agent: __aenter__
+INFO 2025-07-18 06:46:57,039 autoreload 58420 139735468696000 /mnt/persist/workspace/apps/ai_agent/services.py changed, reloading.
+INFO 2025-07-18 06:46:57,581 autoreload 58463 139905837785536 Watching for file changes with StatReloader
+INFO 2025-07-18 06:46:58,239 server 58463 139905747383872 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2025-07-18 06:46:58,239 server 58463 139905747383872 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+INFO 2025-07-18 06:46:58,240 server 58463 139905747383872 Listening on TCP address 0.0.0.0:8000
+INFO 2025-07-18 06:47:08,193 autoreload 58463 139905837785536 /mnt/persist/workspace/apps/ai_agent/services.py changed, reloading.
+INFO 2025-07-18 06:47:08,756 autoreload 58470 140182536073664 Watching for file changes with StatReloader
+INFO 2025-07-18 06:47:09,450 server 58470 140182445618752 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2025-07-18 06:47:09,450 server 58470 140182445618752 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+INFO 2025-07-18 06:47:09,451 server 58470 140182445618752 Listening on TCP address 0.0.0.0:8000
+INFO 2025-07-18 06:47:16,349 autoreload 58470 140182536073664 /mnt/persist/workspace/apps/ai_agent/services.py changed, reloading.
+INFO 2025-07-18 06:47:16,891 autoreload 58477 140666692325824 Watching for file changes with StatReloader
+INFO 2025-07-18 06:47:17,563 server 58477 140666602518080 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2025-07-18 06:47:17,564 server 58477 140666602518080 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+INFO 2025-07-18 06:47:17,564 server 58477 140666602518080 Listening on TCP address 0.0.0.0:8000
+INFO 2025-07-18 06:48:17,722 _client 58500 140597736907200 HTTP Request: POST https://api.novita.ai/v3/openai/chat/completions "HTTP/1.1 200 OK"
